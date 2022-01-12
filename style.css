@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+body {
+  background-color: #5584ac;
+}
+
+.container {
+  width: 390px;
+  padding: 20px;
+  background-color: #22577e;
+  margin: 70px auto 0;
+  border-radius: 5px;
+}
+.child--one {
+  padding: 30px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  background-color: white;
+}
+.del {
+  background-color: #5584ac;
+  color: white;
+}
+.egal {
+  background-color: #ea0c14;
+  color: white;
+}
+
+.child--two,
+.child--three,
+.child--four,
+.child--five,
+.child--six {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 8px;
+  gap: 9px;
+}
+.child--two button,
+.child--three button,
+.child--four button,
+.child--five button {
+  width: 82px;
+  height: 52px;
+}
+
+.child--six button {
+  width: 173px;
+  height: 52px;
+}
+button {
+  background-color: #f6f2d4;
+  border-radius: 5px;
+  border: none;
+  font-size: 25px;
+}
